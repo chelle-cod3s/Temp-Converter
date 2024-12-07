@@ -8,7 +8,8 @@ public class FahrenConv {
         double value= scanner.nextDouble();
         scanner.nextLine();
         double celsuis2= (value -32) *(5.0/9);
-        System.out.println(value+" fahrenheit is equivalent to :"+celsuis2+" celsuis ");
+//        System.out.printf("%.3f" ,celsuis2);
+        System.out.printf ("%.2f fahrenheit is equivalent to %.3f celsuis%n",value, celsuis2);
         scanner.close();
 
 
@@ -19,7 +20,7 @@ public class FahrenConv {
         double value= scanner.nextDouble();
         scanner.nextLine();
         double kelvin2= (value -32) *(5.0/9)+273.15;
-        System.out.println(value+" fahrenheit is equivalent to :"+kelvin2+" kelvin ");
+        System.out.printf("%.2f fahrenheit is equivalent to %3 kelvin%n" ,value ,kelvin2);
         scanner.close();
 
 

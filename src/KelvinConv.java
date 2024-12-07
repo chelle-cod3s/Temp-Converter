@@ -9,7 +9,7 @@ public class KelvinConv {
         scanner.nextLine();
 
         double celsuis =value-273.15;
-        System.out.println(value + " kelvin is equivalent to "+celsuis+" celsuis ");
+        System.out.printf( "%.2f kelvin is equivalent to %.3f celsuis%n" ,value,celsuis);
         scanner.close();
     }
 
@@ -21,7 +21,8 @@ public class KelvinConv {
         scanner.nextLine();
         double fahren =( value-273.15)*(9.0/5)+32;
 
-        System.out.println(value +" kelvin is equivalent to :"+fahren+ "fahrenheit");
+        System.out.printf("%.2f kelvin is equivalent to %.3f fahrenheit%n" ,value ,fahren);
+
 
         scanner.close();
     }
